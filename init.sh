@@ -1,3 +1,4 @@
-vagrant box add ubuntu https://dl.dropboxusercontent.com/u/4387941/vagrant-boxes/ubuntu-13.04-mini-i386.box
+#!/bin/bash
+vagrant box add ubuntu http://goo.gl/Y4aRr
 vagrant init ubuntu
 vagrant up
